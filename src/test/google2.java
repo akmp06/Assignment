@@ -79,8 +79,8 @@ public class google2 {
 	        
 	        //System.out.println("textst:"+st);
 	        //System.out.println("textlt:"+lt);
-	        sheet.getRow(i).createCell(3).setCellValue(st);
-	        sheet.getRow(i).createCell(4).setCellValue(lt);
+	        sheet.getRow(i).createCell(3).setCellValue(lt);
+	        sheet.getRow(i).createCell(4).setCellValue(st);
 	        FileOutputStream fout= new FileOutputStream(src); 
 	        workbook.write(fout);
 
